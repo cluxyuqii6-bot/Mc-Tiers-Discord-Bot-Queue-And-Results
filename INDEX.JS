@@ -145,7 +145,7 @@ client.on("interactionCreate", async interaction => {
 				const previousRank = interaction.options.getString("previous_rank");
 				const rankEarned = interaction.options.getString("rank_earned");
 
-				const avatarUrl = `https://minotar.net/avatar/${username}`;
+				const avatarUrl = `https://mc-heads.net/avatar/${username}`;
 				const embed = new EmbedBuilder()
 						.setTitle(`${user.username}'s Test Results 🏆`)
 						.setThumbnail(avatarUrl)
